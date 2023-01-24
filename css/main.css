@@ -1,0 +1,446 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .topHeader {
+    position: absolute;
+    width: 1440px;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+    background: #353922;
+    display: flex;
+  }
+  .topHeader .imageSide {
+    width: 40%;
+    height: 100%;
+  }
+  .topHeader .navSide {
+    width: 60%;
+    height: 100%;
+  }
+  .topHeader .imageSide img {
+    position: absolute;
+    width: 159px;
+    height: 80px;
+    left: 69px;
+    top: 11px;
+  }
+  .topHeader .navSide nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  .topHeader .navSide nav ul li {
+    width: 139px;
+    height: 34px;
+    margin-top: 34px;
+    font-family: "Montserrat";
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    margin-left: 15px;
+    line-height: 32px;
+  }
+  .topHeader .navSide nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .topHeader .navSide nav ul li a.specials {
+    background: #d82c2c;
+    padding: 10px 40px 10px 40px;
+    border-radius: 7px;
+  }
+  main .wrapper {
+    margin-top: 100px;
+    width: 1440px;
+    height: 626px;
+    left: 0px;
+    top: 0px;
+    background-image: url(../images/back.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .wrapper .centerMe {
+    width: 520px;
+    align-items: center;
+    text-align: center;
+  }
+  main .wrapper .centerMe p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 59px;
+    display: flex;
+    color: #333333;
+  }
+  main .wrapper .centerMe button {
+    border: none;
+    outline: none;
+    background: #d82c2c;
+    width: 60%;
+    height: 70px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  main .map {
+    width: 1440px;
+    height: 738px;
+    background: #ffffff;
+  }
+  main .map .title {
+    width: 100%;
+    height: 59px;
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+  }
+  main .map .content {
+    width: 85%;
+    height: 80%;
+    margin: 20px auto;
+    display: flex;
+  }
+  main .map .content .leftSide {
+    background: #ffffff;
+    width: 35%;
+    height: 100%;
+    margin-right: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  main .map .content .leftSide .subContent {
+    width: 70%;
+    height: 160px;
+    margin: 10px auto;
+    text-align: center;
+  }
+  main .map .content .leftSide .origin {
+    margin-top: 50px;
+  }
+  main .map .content .leftSide .subContent .head {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 10px;
+  }
+  main .map .content .leftSide .subContent .secondHead {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 10px;
+  }
+  main .map .content .leftSide .subContent .lastHead {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 10px;
+  }
+  main .map .content .rightSide {
+    background: #ffffff;
+    width: 64%;
+    height: 100%;
+    background-image: url(../images/Location-Right.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  main .gallery {
+    width: 1440px;
+    height: 767px;
+    background: #353922;
+  }
+  main .gallery .lead {
+    width: 100%;
+    height: 59px;
+    padding-top: 28px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 59px;
+    color: #f7f7f7;
+  }
+  main .gallery .slide {
+    width: 90%;
+    height: 80%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-betwen;
+  }
+  main .gallery .slide .flexDiv {
+    background: #ffffff;
+    width: 30%;
+    height: 80%;
+    margin: 30px;
+    border-radius: 10px;
+  }
+  main .gallery .slide .flexDiv .top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  main .gallery .slide .flexDiv .top img {
+    margin-top: 40px;
+  }
+  main .gallery .slide .flexDiv .second {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  main .gallery .slide .flexDiv .second h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-top: 30px;
+  }
+  main .gallery .slide .flexDiv .third {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  main .gallery .slide .flexDiv .third h5 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 30px 40px;
+    text-align: center;
+  }
+  main .gallery .slide .flexDiv .last {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  main .gallery .slide .flexDiv .last img {
+    margin: 5px;
+  }
+  main .offer {
+    width: 1440px;
+    height: 600px;
+    background: #ffffff;
+  }
+  main .offer .offerBag {
+    width: 90%;
+    height: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  main .offer .offerBag .offerContent {
+    width: 48%;
+    height: 100%;
+  }
+  main .offer .offerBag .offerContent .offerBox {
+    width: 95%;
+    height: 85%;
+    margin: 70px auto;
+    background: #353922;
+    border-radius: 10px;
+  }
+  main .offer .offerBag .offerContent .offerBox .offerImage {
+    transform: rotate(-30deg);
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin: -85px 0px 0px 10px;
+    background-image: url(../images/VectorSpace.png);
+    background-position: center;
+    background-size: cover;
+  }
+  main .offer .offerBag .offerContent .offerBox .offerImage .closeImage {
+    width: 90%;
+    height: 90%;
+    margin: 30px 0px 0px 5px;
+    background-image: url(../images/VectorStar.png);
+    background-position: center;
+    background-size: cover;
+  }
+  main .offer .offerBag .offerContent .offerBox .offerImage .closeImage .off {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 70px;
+    text-align: center;
+  }
+  main .offer .offerBag .offerContent .offerBox .offerImage .closeImage .off h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 44px;
+    color: #000000;
+  }
+  main .offer .offerBag .offerContent .offerBox .offerImage .closeImage .below {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 70px;
+    text-align: center;
+  }
+  main
+    .offer
+    .offerBag
+    .offerContent
+    .offerBox
+    .offerImage
+    .closeImage
+    .below
+    h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+  }
+  main .offer .offerBag .offerContent .offerBox .offerPrice {
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    left: 30%;
+    margin-top: 50px;
+  }
+  main .offer .offerBag .offerContent .offerBox .offerPrice h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  main .offer .offerBag .offerContent .offerBox .offerPrice h2 span {
+    font-weight: 100;
+    font-size: 20px;
+  }
+  main .offer .offerBag .offerContent .offerBox .offerPrice2 {
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    left: 77%;
+    margin-top: 50px;
+  }
+  main .offer .offerBag .offerContent .offerBox .offerPrice2 h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  main .offer .offerBag .offerContent .offerBox .offerPrice2 h2 span {
+    font-weight: 100;
+    font-size: 20px;
+  }
+  main .offer .offerBag .offerContent .offerBox .endBox {
+    width: 550px;
+    height: 250px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+  }
+  main .offer .offerBag .offerContent .offerBox .endBox .topBox {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+  }
+  main .offer .offerBag .offerContent .offerBox .endBox .belowBox {
+    width: 100%;
+    margin-top: 10px;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .offer .offerBag .offerContent .offerBox .endBox .topBox .leftSide {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #ffffff;
+  }
+  main .offer .offerBag .offerContent .offerBox .endBox .topBox .rightSide {
+    width: 52%;
+    height: 100%;
+  }
+  main .offer .offerBag .offerContent .offerBox .endBox .topBox .rightSide img {
+    width: 90%;
+    height: 90%;
+    margin-left: 10px;
+  }
+  main .offer .offerBag .offerContent .offerBox .endBox .belowBox button {
+    border: none;
+    outline: none;
+    background: #d82c2c;
+    border-radius: 7px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 39px;
+    color: #fff;
+    padding: 15px 30px;
+    cursor: pointer;
+  }
+  footer {
+    width: 1440px;
+    height: 95px;
+    background: #353922;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  
